@@ -189,6 +189,10 @@ h2 {
   background-color: #dcdcdc;
 }
 
+.jkirje h4 {
+  text-align: center;
+}
+
 table {
   margin-left: auto;
   margin-right: auto;
@@ -244,6 +248,7 @@ tr:nth-child(even) {
   padding: 0rem;
   flex-wrap: wrap
 }
+
 
 .henk h2 {
   margin: 0.5em;
