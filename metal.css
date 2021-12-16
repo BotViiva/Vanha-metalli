@@ -1,0 +1,254 @@
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  z-index: 99;
+}
+
+h3 {
+  font-family: serif;
+  text-align: center;
+  font-size: 3vw;
+}
+
+h4 {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 150%;
+  text-align: center;
+}
+
+.active {
+  background-color: white;
+}
+
+p {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+  margin: 0em;
+}
+
+body {
+  display: block;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.header {
+  border: 3px solid firebrick;
+  line-height: 25px;
+  position: relative;
+  top: 0em;
+  left: 0em;
+  right: 0em;
+  height: 50px;
+  background-color: firebrick;
+}
+
+.topnav {
+  background-color: grey;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+}
+
+/* links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+/* hover */
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+.topnav a:hover:not(.active) {
+  background-color: #b6b6b6;
+}
+
+/* active class to highlight the current page */
+.topnav a.active {
+  background-color: rgb(255, 255, 255);
+}
+
+/* link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 620px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  td:nth-child(odd) {
+    display: none;
+  }
+
+  td:nth-child(even) {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: right;
+    margin-right: 30px;
+  }
+
+  h3 {
+    font-size: 4vw;
+  }
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  background-color: firebrick;
+}
+
+#logo {
+  position: absolute;
+  top: 0em;
+  float: left;
+  overflow: auto;
+  height: 50px;
+}
+
+#s {
+  color: black;
+  text-align: left;
+  margin-left: 20px;
+}
+
+h2 {
+  color: black;
+  font: bolder;
+}
+
+.jkirje {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 5px solid firebrick;
+  border-radius: 3px;
+  background-color: #dcdcdc;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding-top: 8px;
+  padding-left: 8px;
+  text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.mokki {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mokkidiv {
+  max-width: 70%;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#w {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 8px;
+  line-height: 1.5;
+}
+
+.henk {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+  flex-wrap: wrap
+}
+
+.henk h2 {
+  margin: 0.5em;
+}
+
+.henk p {
+  margin: 0.3em;
+}
